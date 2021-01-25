@@ -91,7 +91,7 @@ body {
 }
 
 .form__title {
-  font-size: 32px;
+  font-size: 24px;
 }
 
 .form__group {
@@ -149,7 +149,7 @@ body {
 .sign-in__btn {
   border-radius: 26.5px;
   background-color: #fd3e75;
-  margin: 40px 0 24px 0;
+  margin: 23px 0 24px 0;
   overflow: hidden;
 }
 
@@ -159,6 +159,16 @@ body {
   text-align: center;
   color: #ffffff;
   padding: 16px 124px;
+}
+
+.sign-in__privacy {
+  text-align: center;
+  font-size: 14px;
+  color: #1d1d1d;
+}
+
+.sign-in__privacy__content {
+  margin-top: 30px;
 }
 
 .sign-in__option {

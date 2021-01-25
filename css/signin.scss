@@ -71,7 +71,7 @@ body {
         }
     }
     &__title {
-        font-size: 32px;
+        font-size: 24px;
     }
     &__group {
         padding: 16px 24px;
@@ -123,7 +123,7 @@ body {
     &__btn {
         border-radius: 26.5px;
         background-color: #fd3e75;
-        margin: 40px 0 24px 0;
+        margin: 23px 0 24px 0;
         overflow: hidden;
     }
     &__label {
@@ -132,6 +132,14 @@ body {
         text-align: center;
         color: #ffffff;
         padding: 16px 124px;
+    }
+    &__privacy {
+        text-align: center;
+        font-size: 14px;
+        color: #1d1d1d;
+        &__content {
+            margin-top: 30px;
+        }
     }
     &__option {
         text-align: center;

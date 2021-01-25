@@ -17,10 +17,10 @@
                 <nav class="navbar__wrapper" role="navigation">
                     <ul class="navbar__list">
                         <li class="navbar__item">
-                            <a href="#" class="navbar__link navbar__link--active">Sign in</a>
+                            <a href="http://127.0.0.1:5500/signin.html" class="navbar__link">Sign in</a>
                         </li>
                         <li class="navbar__item">
-                            <a href="http://127.0.0.1:5500/singup.html" class="navbar__link">Sign up</a>
+                            <a href="#" class="navbar__link navbar__link--active">Sign up</a>
                         </li>
                     </ul>
                 </nav>
@@ -28,15 +28,20 @@
             <main role="form">
                 <div class="form__container--top">
                     <h1 class="form__title">
-                        Log in to your
+                        Sign up to get <mark style="color: #fd3e75; background-color: white">25%</mark>
                         <br />
-                        account to shop
+                        discount on your first
                         <br />
-                        faster.
+                        order.
                     </h1>
                 </div>
                 <div class="sign-up__form">
                     <form class="form__container--bottom">
+                        <div class="form__group form__group__line">
+                            <label class="form__label">Full Name</label>
+                            <input class="form__input" type="text" value="Tran Minh Thuan" />
+                            <img src="/icons/check.svg" alt="" class="form__img" />
+                        </div>
                         <div class="form__group form__group__line">
                             <label class="form__label">Email</label>
                             <input class="form__input" type="email" value="Thuantms@gmail.com" />
@@ -45,11 +50,14 @@
                         <div class="form__group">
                             <label class="form__label">Password</label>
                             <input class="form__input" type="password" value="Thuantms@gmail.com" />
-                            <label class="form__label--right">
-                                <a href="#" class="form__link">Forgot?</a>
-                            </label>
+                            <img src="/icons/check.svg" alt="" class="form__img" />
                         </div>
                     </form>
+                </div>
+                <div class="sign-in__privacy">
+                    <p class="sign-in__privacy__content">
+                        Term of Use <mark style="color: #c8c8c8; background-color: white">and</mark> Privacy Policy
+                    </p>
                 </div>
                 <div class="sign-in__btn">
                     <label class="sign-in__label">Sign in</label>
