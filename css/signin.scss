@@ -124,14 +124,15 @@ body {
         border-radius: 26.5px;
         background-color: #fd3e75;
         margin: 23px 0 24px 0;
+        cursor: pointer;
         overflow: hidden;
-    }
-    &__label {
-        display: block;
         font-size: 18px;
         text-align: center;
         color: #ffffff;
-        padding: 16px 124px;
+        outline: none;
+        border: none;
+        display: block;
+        padding: 16px 120px;
     }
     &__privacy {
         text-align: center;
